@@ -1,0 +1,32 @@
+body{
+    font-family:Arial,sans-serif;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+} 
+ul li{
+    list-style-type: none;
+    margin:10px;
+}
+#form{
+    text-align: center;
+}
+#search{
+    display:flex;z-index:3;position:relative;min-height:44px;background:#fff;border:1px solid #dfe1e5;box-shadow:0px 2px 8px 0px rgba(60, 64, 67, 0.25);border-radius:24px;margin:10px auto;width:638px;max-width:584px;width:auto;
+}
+.form-row{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+.form-row label{
+    width :4000;
+}
+
+.form-row input{
+    display: flex;
+    margin-left: 300px;
+    
+}
