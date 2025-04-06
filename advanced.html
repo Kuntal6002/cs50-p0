@@ -12,29 +12,43 @@
         
         <div id="form">
         <form action="https://www.google.com/search">
-            <div class="form-row">
-            <label for="all">all these words:</label>
-            <input id="all" type="text" name="all">
-            </div>
-
-            <div class="form-row">
-            <label for="exact">Find pages with… “this exact word or phrase:”</label>
-            <input id="exact" type="text" name="exact">
-            </div>
-
-            <div class="form-row">
-                <label for="any">Find pages with… “any of these words:”</label>
-                <input id="any"  type="text" name="any">
-            </div>
-
-            
-            <div class="form-row">
-                <label for="none">Find pages with… “none of these words:”</label>
-                <input id="none"  type="text" name="none">
-            </div>            
-            
-            <!--Submit-->
-            <input type="submit" value="Google Search">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="all">all these words:</label>
+                    </td>
+                    <td>
+                        <input id="all" type="text" name="all">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="exact">Find pages with… “this exact word or phrase:”</label>
+                    </td>
+                    <td>
+                        <input id="exact" type="text" name="exact">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="any">Find pages with… “any of these words:”</label>
+                    </td>
+                    <td>
+                        <input id="any"  type="text" name="any">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="none">Find pages with… “any of these words:”</label>
+                    </td>
+                    <td>
+                        <input id="none"  type="text" name="none">
+                    </td>
+                </tr>
+            </tbody>           
+        </table>
+        <button type="submit" id="adv_btn">advanced search</button>
         </form>
         <div>
     </body>
